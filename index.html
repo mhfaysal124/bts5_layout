@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>BTS_Layout</title>
+  </head>
+  <body>
+    <h1 class="h1_layout">&#8594; Layout</h1>
+    <h1 class="h1_layout">&#8594; Layout Designed with full responsive</h1>
+    <!--Breakpoints start-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 content">
+            <h2>&#9827; Breakpoints</h2>
+            <blockquote>
+              Breakpoints are customizable with that determine how your responsive layout behaves across device or viewport sizes in Bootstrap
+            </blockquote>
+            <h3>__Available breakpoints</h3>
+            <blockquote>
+              Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for bulding responsively.
+            </blockquote>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Breakpoint</th>
+                  <th>Class infix</th>
+                  <th>Dimentsions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>X-Small</td>
+                  <td>None</td>
+                  <td>............ &#8594 575.98px</td>
+                </tr>
+                <tr>
+                  <td>Small</td>
+                  <td>sm</td>
+                  <td>576px &#8594 767.98px</td>
+                </tr>
+                <tr>
+                  <td>Medium</td>
+                  <td>md</td>
+                  <td>768px &#8594 991.98px</td>
+                </tr>
+                <tr>
+                  <td>Large</td>
+                  <td>lg</td>
+                  <td>992px &#8594 1199.98px</td>
+                </tr>
+                <tr>
+                  <td>Extra large</td>
+                  <td>xl</td>
+                  <td>1200px &#8594 1399.98px</td>
+                </tr>
+                <tr>
+                  <td>Extra extra large</td>
+                  <td>xxl</td>
+                  <td>1400px &#8594 ............</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          
+        </div>
+      </div>
+    </section>
+    <!--Breackpoing End-->
+    <!--Container Start-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 content">
+            <h2>&#9827; Containers</h2>
+            <blockquote>
+              Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given divice or viewport
+            </blockquote>
+            <h3>__How they work</h3>
+            <blockquote>
+              Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container. <br>
+              <strong>Bootstrap comes with three different containers: </strong>
+              <ul>
+                <li> ".container" which sets a max-with at each responsive breakpoin</li>
+                <li> ".container-fluid" which is width: 100% at all breakpoints.</li>
+                <li> ".container-{breakpoint}" which is width: 100% until the specified breakpoin.</li>
+              </ul>
+              <strong>_Default container</strong><br>
+              <p>Our default ".container" class is a responsive, fixed-width container, meaning its max-width changes at each breakpoin </p>
+
+              <strong>_Responsive containers</strong><br>
+              <p>Responsive containers allow you to specify a class that is 100% wide until the specified breakpoint is reached, after which we apply max-widths for each of the higher breakpoints. For example, .container-sm is 100% wide to start until the sm breakpoint is reached, where it will scale up with md, lg, xl, and xxl.</p>
+
+              <strong>__Fluid containers</strong><br>
+              <p>Use ".container-fluid" for a full width container, spanning the entire width of the viewport.</p>
+            </blockquote>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+                  <!--Container example and exercise-->
+    <div>
+      <div class="container"><div class="demo_view1">.container</div></div>
+      <div class="container-sm"><div class="demo_view1">.container-sm</div></div>
+      <div class="container-lg"><div class="demo_view1">.container-md</div></div>
+      <div class="container-xl"><div class="demo_view1">.container-xl</div></div>
+      <div class="container-xxl"><div class="demo_view1">.container-xxl</div></div>
+      <div class="container-fluid"><div class="demo_view1">.container-fluid</div></div>
+    </div>
+    <!--Container End-->
+    <!--Grid start-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 content">
+            <h2>&#9827; Grid system</h2>
+            <blockquote>
+              Use out powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks ot a twelve column system, six deault responsive tiers, Sass variables and mixins, and dozens of predefiend class. <br>
+              <h3>__Grid options</h3>
+              Bootstrap’s grid system can adapt across all six default breakpoints, and any breakpoints you customize. The six default grid tiers are as follow:
+              <ul>
+                <li>Extra small (xs) </li>
+                <li>Small (sm) </li>
+                <li>Medium (sm) </li>
+                <li>Large (lg) </li>
+                <li>Extra large (xl) </li>
+                <li>Extra extra large (xxl) </li>
+              </ul>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--Container example and exercise-->
+     <section>
+       <div class="container">
+         <div class="row">
+           <div class="col-lg faysal">Column</div>
+           <div class="col-lg faysal">Column</div>
+           <div class="col-lg faysal">Column</div>
+         </div>
+       </div>
+     </section>
+
+     <section>
+       <div class="container">
+          <div class="row">
+            <div class="faysal col-lg">1 of 2</div>
+            <div class="faysal col-lg">2 of 2</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-lg">1 of 3</div>
+            <div class="faysal col-lg">2 of 3</div>
+            <div class="faysal col-lg">3 of 3</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-lg">1 of 3</div>
+            <div class="faysal col-lg-6">2 of 3 (wider)</div>
+            <div class="faysal col-lg">1 of 3</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-lg">1 of 3</div>
+            <div class="faysal col-lg-5">2 of 3 (wider)</div>
+            <div class="faysal col-lg">1 of 3</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-lg-3">mh faysal</div>
+            <div class="faysal col-lg-3">mh faysal</div>
+            <div class="faysal col-lg-3">mh faysal</div>
+            <div class="faysal col-lg-3">mh faysal</div>
+          </div>
+          <div class="row justify-content-lg-center">
+            <div class="faysal col-lg-2">1 of 3</div>
+            <div class="faysal col-lg-auto">Variable width content</div>
+            <div class="faysal col-lg-2">3 of 3</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-lg">1 of 3</div>
+            <div class="faysal col-lg-auto">Variable width content</div>
+            <div class="faysal col-lg-3">3 of 3</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-lg-8">.col-lg-8</div>
+            <div class="faysal col-lg-4 col-6">.col-lg-4</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-6 col-lg-4">.col-6 .col-lg-4</div>
+            <div class="faysal col-6 col-lg-4">.col-6 .col-lg-4</div>
+            <div class="faysal col-6 col-lg-4">.col-6 .col-lg-4</div>
+          </div>
+          <div class="row">
+            <div class="faysal col-6">.col-6</div>
+            <div class="faysal col-6">.col-6</div>
+          </div>
+          <div class="row row-cols-2">
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+          </div>
+          <div class="row row-cols-3">
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+          </div>
+          <div class="row row-cols-auto">
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+            <div class="faysal col">Column</div>
+          </div><br><br>
+          <div class="row row-cols-2 row-cols-lg-3">
+            <div class="faysal col-lg">Column</div>
+            <div class="faysal col-lg">Column</div>
+            <div class="faysal col-lg">Column</div>
+            <div class="faysal col-lg">Column</div>
+            <div class="faysal col-lg">Column</div>
+            <div class="faysal col-lg">Column</div>
+            <div class="faysal col-lg-2 col-4">Column</div>
+            <div class="faysal col-lg-2 col-4">Column</div>
+            <div class="faysal col-lg-2 col-4">Column</div>
+            <div class="faysal col-lg-2 col-4">Column</div>
+            <div class="faysal col-lg-2 col-4">Column</div>
+            <div class="faysal col-lg-2 col-4">Column</div>
+          </div><br><br>
+          <div class="row">
+            <div class="faysal col-lg-3">Level 1: .col-lg-3</div>
+            <div class="faysal col-lg-9">
+              <div class="row">
+                <div class="faysal col-lg-6 col-8">Level 2: .col-lg-6</div>
+                <div class="faysal col-lg-6 col-4">Level 2: .col-lg-6</div>
+              </div>
+            </div>
+          </div>
+       </div>
+     </section>
+    <!--Grid End-->
+
+    <!--Columns Start-->
+    <section>
+      <div class="container">
+        <div class="row content">
+          <div class="col-lg-12">
+            <h3>&#9827; Columns</h3>
+            <blockquote>
+              Learn how to modify columns with a handful of options for alignment, ordering, and offsetting thanks to our flexbox grid system. Plus, see how to use column classes to manage widths of non-grid elements.
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Columns example and exercise-->
+    <section>
+      <div class="container">
+        <h2>Alignment</h2>
+        <h3><i>__Vertical alignment</i></h3>
+        <div class="min_h row align-items-start">
+          <div class="col-lg faysal">One of three columns</div>
+          <div class="col-lg faysal">One of three columns</div>
+          <div class="col-lg faysal">One of three columns</div>
+        </div>
+        <div class="min_h row align-items-center">
+          <div class="col-lg faysal">One of three columns</div>
+          <div class="col-lg faysal">One of three columns</div>
+          <div class="col-lg faysal">One of three columns</div>
+        </div>
+        <div class="min_h row align-items-end">
+          <div class="col-lg faysal">One of three columns</div>
+          <div class="col-lg faysal">One of three columns</div>
+          <div class="col-lg faysal">One of three columns</div>
+        </div><br>
+        <div class="row min_h">
+          <div class="faysal col-lg align-self-start">One of three columns</div>
+          <div class="faysal col-lg align-self-center">One of three columns</div>
+          <div class="faysal col-lg align-self-end">One of three columns</div>
+        </div><br>
+
+        <h3><i>__Horizontal alignment</i></h3>
+        <div class="row justify-content-start">
+          <div class="col-lg-4 faysal">One of two columns</div>
+          <div class="col-lg-4 faysal">One of two columns</div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 faysal">One of two columns</div>
+          <div class="col-lg-4 faysal">One of two columns</div>
+        </div>
+        <div class="row justify-content-end">
+          <div class="col-lg-4 faysal">One of two columns</div>
+          <div class="col-lg-4 faysal">One of two columns</div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-lg-4 faysal">One of two columns</div>
+          <div class="col-lg-4 faysal">One of two columns</div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-4 faysal">One of two columns</div>
+          <div class="col-lg-4 faysal">One of two columns</div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-lg-4 faysal">One of two columns</div>
+          <div class="col-lg-4 faysal">One of two columns</div>
+        </div><br>
+
+        <h3><i>__Column wrapping</i></h3>
+        <div class="row">
+          <div class="col-lg-9 faysal">.col-9</div>
+          <div class="col-lg-4 faysal">.col-4 <br>Since 9 + 4 = 13 > 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+          <div class="col-lg-6 faysal">.col-lg-6 <br>Subsequent columns continue along the new line.</div>
+        </div>
+      </div>
+
+      
+      <div class="container">
+        <h3><i>__Column breaks</i></h3>
+        <div class="row">
+          <div class="col-6 col-sm-3 faysal">.col-6 .col-sm-3</div>
+          <div class="col-6 col-sm-3 faysal">.col-6 .col-sm-3</div>
+      
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+      
+          <div class="col-6 col-sm-3 faysal">.col-6 .col-sm-3</div>
+          <div class="col-6 col-sm-3 faysal">.col-6 .col-sm-3</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-4 faysal">.col-6 .col-sm-4</div>
+          <div class="col-6 col-sm-4 faysal">.col-6 .col-sm-4</div>
+      
+          <!-- Force next columns to break to new line at md breakpoint and up -->
+          <div class="w-100 d-none d-md-block"></div>
+      
+          <div class="col-6 col-sm-4 faysal">.col-6 .col-sm-4</div>
+          <div class="col-6 col-sm-4 faysal">.col-6 .col-sm-4</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h3><i>__Reordering-</i></h3>
+        <div class="row">
+          <div class="col-lg faysal order-last">First in DOM, ordered last</div>
+          <div class="col-lg faysal order-first">Second in DOM, unordered</div>
+          <div class="col-lg faysal order-center">Third in DOM, ordered first</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h3><i>__Offsetting columns</i></h3>
+        <div class="row">
+          <div class="faysal col-lg-4">.col-md-4</div>
+          <div class="faysal col-lg-4 offset-lg-4">.col-md-4 .offset-md-4</div>
+        </div>
+        <div class="row">
+          <div class="faysal col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+          <div class="faysal col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+        </div>
+        <div class="row">
+          <div class="faysal col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h3><i>__Margin utilities</i></h3>
+        <div class="row">
+          <div class="faysal col-md-4">.col-md-4</div>
+          <div class="faysal col-md-4 ms-auto">.col-md-4 .ms-auto</div>
+        </div>
+        <div class="row">
+          <div class="faysal col-md-3 ms-md-auto">.col-md-3 .ms-md-auto</div>
+          <div class="faysal col-md-3 ms-md-auto">.col-md-3 .ms-md-auto</div>
+        </div>
+        <div class="row">
+          <div class="faysal col-auto me-auto">.col-auto .me-auto</div>
+          <div class="faysal col-auto">.col-auto</div>
+        </div>
+
+        <h3><i>__Standalone column classes</i></h3>
+        <div class="col-3 bg-light p-3 border">.col-3: width of 25%</div>
+        <div class="col-sm-9 bg-light p-3 border">.col-sm-9: width of 75% above sm breakpoint</div>
+      </div>
+    </section>
+    <!--Columns End-->
+    <br><br>
+
+
+<!--Layout Design_Start...._by follow extra video_ order by Minhaz Faisal-->
+<!--Header section start-->
+    <section class="header">
+      <div class="container">
+        <h1>Layout Design with responsive</h1><hr>
+        <h2>Header</h2>
+        <div class="row">
+          <div class=" l_faysal col-md-2 col-sm-3 col-12">1.1</div>
+          <div class=" l_faysal col-md-7 col-sm-6 col-6">1.2</div>
+          <div class=" l_faysal col-md-3 col-sm-3 col-6">1.3</div>
+        </div>
+      </div>
+    </section>
+<!--Header section End-->
+<!--Hero section start-->
+<section class="hero">
+  <div class="container">
+    <h2>Hero</h2>
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="l_faysal col-md-8 d-sm-block d-none">2.1</div>
+          <div class="l_faysal col-md-4">2.2</div>
+        </div>
+      </div>
+      <div class="l_faysal col-md-3 c_3 d-md-block d-none">3</div>
+    </div>
+  </div>
+</section>
+<!--Hero section End-->
+<!--Body section Start-->
+<section class="body">
+  <div class="container">
+    <h2>body</h2>
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="l_faysal col-md-8 col-sm-9">4.1</div>
+          <div class="l_faysal c_3 col-sm-3 d-md-none d-block">3</div>
+          <div class="l_faysal col-md-4">4.2</div>
+        </div>
+      </div>
+      <div class="l_faysal col-md-3 c_5 d-md-block d-none">5</div>
+    </div>
+  </div>
+</section>
+<section class="bar d-md-none d-sm-block d-none">
+  <div class="container">
+    <h2>bar</h2>
+    <div class="row">
+      <div class="l_faysal col-sm-12">5</div>
+    </div>
+  </div>
+</section>
+<!--Body section End-->
+<!--Footer section Start-->
+<section class="footer">
+  <div class="container">
+    <h2>Footer</h2>
+    <div class="row">
+      <div class="l_faysal col-md-12">6.1</div>
+    </div>
+  </div>
+</section>
+<!--Footer section End-->
+<!--Layout Design_End...._by follow extra video_ order by Minhaz Faisal-->
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/script.js"></script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,65 @@
+.h1_layout{
+    margin: 22px;
+    padding-left: 50px;
+    color: rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(172, 156, 156);
+}
+blockquote{
+    margin-left: 45px;
+    width: 90%;
+    text-align: justify;
+}
+.content{
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: -1px 1px 5px 0px orange;
+}
+.demo_view{
+    background-color: orange;
+    margin-bottom: 5px;
+}
+.demo_view1{
+    background-color: rgb(86 81 81);
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 22px 0;
+    min-height: 37px;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+}
+
+.faysal{
+    border: 1px solid white;
+    padding: 18px;
+    font-weight: 550;
+    color: white;
+    background-color: #6b6b6b;
+}
+.min_h{
+    min-height: 180px;
+    background-color: #6b6b6b96;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+/*Layout Design_Start...._by follow extra video_ order by Minhaz Faisal*/
+.header, .hero, .body, .bar, .footer{
+    background-color: #1d1d1d;
+    color: orange;
+    padding: 20px 0;
+}
+.l_faysal{
+    border: 10px solid #1d1d1d;
+    padding: 20px;
+    font-weight: 550;
+    color: white;
+    background-color: #737272;
+}
+.c_3{
+    background-color: #ce4800;;
+}
+.c_5{
+    background-color: maroon;
+}
+/*Layout Design_End....._by follow extra video_ order by Minhaz Faisal*/
